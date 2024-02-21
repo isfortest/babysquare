@@ -1,6 +1,6 @@
 describe("Add_Product", () => {
 
-  it("should Add product", () => {
+  it("should Add annonce", () => {
     cy.visit("https://www.babysquare.fr/version-test/cormeilles/debug_mode=true");
     cy.get("div.baTaHaLr > button").click();
     cy.get("div.baTaHgn input").click();
