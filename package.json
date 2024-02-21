@@ -1,0 +1,8 @@
+{
+  "name": "testP1",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
