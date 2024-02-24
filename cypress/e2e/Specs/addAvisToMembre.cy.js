@@ -26,9 +26,13 @@ describe('Mon test', () => {
     cy.get('.baTaHnd').contains('Prenomtest2').click();
     cy.get('.baTaJaAaL').click();
     cy.get('.baTaJdaY').click();
-    cy.get('.baTaKaQh ').find('#ezStars_1708386402230');
+    cy.wait(1000);
+    //cy.get('.baTaKaQh ul li').last().click({force: true});
+    cy.get('.baTaKaQh').find('ul li').eq(4).click({force: true});
     cy.get('.baTaJmaE').type('Transaction impeccable, vendeur fiable et article ' +
         'conforme à la description, je recommande vivement!');
     //cy.get('.baTaJmaH').click();
+    //cy.get('.bubble-element.baTaKaQq').should('contain','Votre avis a été envoyé !')
+
   });
 });
